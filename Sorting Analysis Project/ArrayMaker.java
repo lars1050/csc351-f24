@@ -234,8 +234,10 @@ public class ArrayMaker {
 		// Start with sorted array (by number), then randomize
 		AlphaNumeric[] array = makeSorted(size);
 
+		int swaps = size*percent/100/2;
+
 		// randomly rearrange percent values
-		for (int i=0; i<percent/2; i++) {
+		for (int i=0; i<swaps; i++) {
 			// Choose a random locations to swap
 			int index1 = random.nextInt(size);
 			int index2 = random.nextInt(size);
