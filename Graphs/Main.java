@@ -19,9 +19,9 @@ public class Main {
 			if (
 				!algorithm.equals("bfs") && 
 				!algorithm.equals("dfs") &&
-				!algorithm.equals("dijkstra")
+				!algorithm.equals("prim")
 			) {
-				System.out.println("Algorithm must be bfs, dfs, or dijkstra.");
+				System.out.println("Algorithm must be bfs, dfs, or prim.");
 				return;
 			}
 		}
