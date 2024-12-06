@@ -14,7 +14,7 @@ In this example, Main will create a graph from the file __amsterdamNY.tmg__, the
 
 <hr>
 
-In PathFinder.findPath(), use the SAME CODE to implement the BFS and DFS. Determine what the user wants to run and define the queue appropriately (FIFO for BFS and LIFO for DFS). Also implement Dijkstra's algorithm. Choose which code to execute based on the algo passed to the function.
+In PathFinder.findPath(), use the SAME CODE to implement the BFS and DFS. Determine what the user wants to run and define the queue appropriately (FIFO for BFS and LIFO for DFS). Also implement Prim's algorithm. Choose which code to execute based on the algo passed to the function.
 
 ## Implementing a BFS or DFS
 
